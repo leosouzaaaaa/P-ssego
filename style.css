@@ -4,18 +4,23 @@
 }
 
 header{
-    background-color: 2A6B1F; 
+    background-color: #2A6B1F; 
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px;
 }
 
-section{
+.prin{
     display: flex;
-    align-items: center;
-    background-color: 2A6B1F;
-    color:black
+    flex-direction: column;
+    text-align: center;
+}
+
+.produto{
+    
+    background-color: #2A6B1F;
+    color:black;
     margin: 10px 0;
     padding: 10px 20px;
 }
