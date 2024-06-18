@@ -20,8 +20,7 @@ header{
     text-align: center;
 }
 
-.produto{
-    
+.produto{   
     background-color: #2A6B1F;
     color:black;
     margin: 10px;
@@ -31,4 +30,18 @@ header{
 
 div{
     padding: 30px;
+}
+
+@media screen and (min-width: 1024px){
+  .prin{  
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+}
+
+@media screen and (min-width: 1728px){
+    .prin{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
 }
