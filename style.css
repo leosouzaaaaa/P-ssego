@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body{
      background-color: #7BB288;
 }
@@ -43,5 +42,62 @@ div{
 @media screen and (min-width: 1728px){
     .prin{
         grid-template-columns: 25% 25% 25% 25%;
+    }
+}
+
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #7BB288;
+    color:antiquewhite;
+    padding: 12px;
+    position:relative;
+}
+
+ul li{
+    list-style: none;
+}
+
+.texto{
+    color:antiquewhite;
+}
+
+.lista{
+    diplay:none;
+    position: absolute;
+    top:100%;
+    background-color: rebeccapurple;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.caixa:checked ~ .lista{
+    display:block;
+}
+
+#menu{
+    display:none;
+}
+
+.lista-item{
+    padding: 12px 0;
+}
+
+
+@media screen and (min-width: 1024px){
+    .lista{
+        right: 8%;
+        width: 14%;
+        padding: 20px;
+        text-align: start;
+    }
+    .lista-item:hover{
+        background-color: antiquewhite;
     }
 }
