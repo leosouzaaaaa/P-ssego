@@ -68,7 +68,7 @@ ul li{
 }
 
 .lista{
-    diplay:none;
+    display:none;
     position: absolute;
     top:100%;
     background-color: #2A6B1F;
