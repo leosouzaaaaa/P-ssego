@@ -13,12 +13,16 @@ header{
     padding: 10px;
 }
 
+.princ{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 .prin{
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-
 .produto{   
     background-color: #2A6B1F;
     color:black;
