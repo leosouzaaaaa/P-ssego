@@ -70,11 +70,12 @@ ul li{
 .lista{
     display:none;
     position: absolute;
-    top:100%;
+    top: 77%;
     background-color: #2A6B1F;
-    width: 100%;
+    width: 45%;
     padding: 20px 0;
     text-align: center;
+    left: 0;
 }
 
 .caixa:checked ~ .lista{
