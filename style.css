@@ -97,10 +97,14 @@ ul li{
 
 @media screen and (min-width: 1024px){
     .lista{
-        right: 8%;
-        width: 14%;
-        padding: 20px;
-        text-align: start;
+        display:none;
+        position: absolute;
+        top: 77%;
+        background-color: #2A6B1F;
+        width: 40%;
+        padding: 20px 0;
+        text-align: center;
+        left: 0;
     }
     .lista-item:hover{
         background-color: antiquewhite;
