@@ -80,6 +80,7 @@ ul li{
     padding: 20px 0;
     text-align: center;
     left: 0;
+    height: 444px;
 }
 
 .caixa:checked ~ .lista{
